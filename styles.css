@@ -1,0 +1,28 @@
+@media (min-width:768px) {
+    .cupcakes{
+        display: flex;
+        background-color: rgb(255,228,196);
+    }
+    h1{
+        color: #FFFFFF;
+        background: #F7C1C1;
+        text-shadow: 4px 3px 0px #7A7A7A;
+        text-align: center;
+        border: 2px dotted red;
+    }
+}
+@media (max-width:900px) {
+    h1{
+        color: #FFF;
+        background-color: #333;
+        text-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+    }
+}
+
+.cupcake{
+    border: 1px solid;
+    padding: 1em;
+    border-radius: 3em;
+    background-color: cadetblue;
+    margin: 1em;
+}
